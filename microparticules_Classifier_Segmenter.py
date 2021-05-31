@@ -1219,14 +1219,6 @@ if __name__ == "__main__":
     apercu = False
     dontmove = False
 
-    #ICON
-    """
-    cwd = os.getcwd()
-    tools = os.path.join(cwd)
-    icon = {
-        "win32": os.path.join(tools, "windows", "icon.ico"),
-    }[sys.platform]
-    """
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
